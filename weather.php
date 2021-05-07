@@ -117,5 +117,19 @@ if(isset($_POST['submit'])){
             <?php 
          }
       ?>
+    <style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #e3f2fd;
+   color: black;
+   text-align: center;
+}
+</style>
+    <div class="footer">
+  <p>All Rights Reserved &copy; 2021</p>
+</div>
    </body>
 </html>
