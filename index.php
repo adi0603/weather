@@ -11,15 +11,6 @@
 		body {
 			  	background: #efefef;
 			}
-			p {
-				left: 42%;
-			   	position: absolute;
-			   	top: 50%;
-			   	font-family: Helvetica, 'Helvetica Neue', sans-serif;
-				letter-spacing: 1px;
-				color: #a0a0a0;
-				text-align: center;
-			}
 			img {   
 			   	left: 45%;
 			   	position: absolute;
@@ -31,21 +22,12 @@
 				  	position: absolute;
 				  	top: 40%;
 				}
-				p{
-					left: 15%;
-				  	position: absolute;
-				  	top: 60%;
-				  	font-family: Helvetica, 'Helvetica Neue', sans-serif;
-				  	color: #a0a0a0;
-					text-align: center;
-				}
 			}
 		</style>
 	</head>
 	<body onload="myFunction()">
 		<div id="loader">
-			<img class="preloader" src="image/loader.gif">			
-			<p>LOOKING OUTSIDE FOR YOU... <br>ONE SEC</p>						
+			<img class="preloader" src="image/loader.gif">									
 		</div>
 		<script>
 			var myVar;
