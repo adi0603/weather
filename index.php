@@ -17,6 +17,7 @@
 			   	font-family: Helvetica, 'Helvetica Neue', sans-serif;
 				letter-spacing: 1px;
 				color: #a0a0a0;
+				text-align: center;
 			}
 			img {   
 			   	left: 45%;
@@ -35,16 +36,15 @@
 				  	top: 60%;
 				  	font-family: Helvetica, 'Helvetica Neue', sans-serif;
 				  	color: #a0a0a0;
+					text-align: center;
 				}
 			}
 		</style>
 	</head>
 	<body onload="myFunction()">
 		<div id="loader">
-			<img class="preloader" src="image/loader.gif">
-			<center>
-				<p>LOOKING OUTSIDE FOR YOU... <br>ONE SEC</p>
-			</center>			
+			<img class="preloader" src="image/loader.gif">			
+			<p>LOOKING OUTSIDE FOR YOU... <br>ONE SEC</p>						
 		</div>
 		<script>
 			var myVar;
