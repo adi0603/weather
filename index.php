@@ -32,7 +32,7 @@
 				p{
 					left: 10%;
 				  	position: absolute;
-				  	top: 55%;
+				  	top: 60%;
 				  	font-family: Helvetica, 'Helvetica Neue', sans-serif;
 				  	color: #a0a0a0;
 				}
