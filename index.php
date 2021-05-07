@@ -31,7 +31,7 @@
 				  	top: 40%;
 				}
 				p{
-					left: 10%;
+					left: 15%;
 				  	position: absolute;
 				  	top: 60%;
 				  	font-family: Helvetica, 'Helvetica Neue', sans-serif;
