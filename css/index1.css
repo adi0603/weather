@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+body {
+  background-color: cadetblue;
+  font-family: Poiret One;
+}
+.block
+{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 50px 30px;   
+}
+.input-res
+{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: 15px/1 'Open Sans', sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 500px;
+  background-color: #ddd;
+  border: none;
+  padding: 10px 11px 11px 11px;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+
+
+.center-div
+{
+  margin: 0 auto;
+  max-width: 600px;
+  height: 400px;
+  background-color: #14141f;
+  border-radius: 15px;
+}
+
+.weatherIcon {
+   flex: 1 100%;
+   height: 40%;
+   background: #3399ff;
+   font-family: weathericons;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 30px;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+}
+.temperature {
+     flex: 1 100%;
+     width: 100%;
+     font-size: 30px;
+     display: flex;
+     color: white;
+     background: darkslategray;
+     justify-content: space-around;
+  }
+  .date {
+     flex: 0 0 30%;
+     height: 28%;
+     background: #70C1B3;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color: white;
+     font-size: 30px;
+     font-weight: 100;
+     border-bottom-right-radius: 15px;
+     border-bottom-left-radius: 15px;
+  }
+
+@media screen and (max-width: 600px) {
+  .block
+  {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 50px 30px;   
+  }
+  .input-res
+  {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font: 15px/1 'Open Sans', sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ddd;
+    border: none;
+    padding: 10px 11px 11px 11px;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    margin: 0;
+    box-sizing: border-box; 
+  }
+  .center-div {
+    width: 80%;
+    height: 50%;
+    background-color: #14141f;
+    border-radius: 15px;
+  }
+  .weatherIcon {
+   flex: 1 100%;
+   height: 34%;
+   background: #3399ff;
+   font-family: weathericons;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 30px;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+  }
+  .temperature {
+     flex: 1 100%;
+     width: 100%;
+     font-size: 25px;
+     display: flex;
+     color: white;
+     background: darkslategray;
+     justify-content: space-around;
+  }
+  .date {
+     flex: 0 0 30%;
+     height: 32%;
+     background: #70C1B3;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color: white;
+     font-size: 25px;
+     font-weight: 100;
+     border-bottom-right-radius: 15px;
+     border-bottom-left-radius: 15px;
+  }
+}
