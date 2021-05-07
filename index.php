@@ -6,7 +6,7 @@
 		 <meta name="description" content="">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <link rel="icon" type="image/ico" href="image/icon.ico">
-	        <link rel="stylesheet" type="text/css" href="style.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">	
+	        <link rel="stylesheet" type="text/css" href="style.css?rnd=132">	
 	</head>
 	<body onload="myFunction()">
 		<div id="loader">
