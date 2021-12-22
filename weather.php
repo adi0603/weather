@@ -63,7 +63,7 @@ if(isset($_POST['submit'])){
                echo " | ".$city;
             }?>
          </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" onclick="window.open('https://adityapandey.me/')">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" onclick="window.open('https://adi0603.github.io/')">
             <i class="fas fa-id-card-alt"></i>
          </button>
       </nav>
